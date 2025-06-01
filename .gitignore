@@ -1,0 +1,88 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript compiled output
+dist/
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and editor files
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# VS Code workspace files (contains personal configuration)
+*.code-workspace
+
+# Output directories (generated audio files)
+output/
+temp/
+
+# Test coverage
+coverage/
+*.lcov
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Temporary folders
+tmp/
+temp_*/
+
+# Package manager lock files (keep package-lock.json for npm)
+# yarn.lock
+# pnpm-lock.yaml
+
+# Private development files (not for public repository)
+LLM-Memory/
+LLM-Guide/
+LLM-Context/
+
+# Development artifacts
+CLAUDE.md
+KOKORO_SYNTHESIS_FIX_PROPOSAL.md
+KOKORO_ENGINE_FIX_REPORT.md
+TMUX_SETUP.md
+restart-mcp.md
+MCP_TROUBLESHOOTING_GUIDE.md
+
+# Analysis and testing files
+analyze-audio.py
+simple-test.js
+test-mcp-client.js
+test_coqui.py
+test_kokoro.py
